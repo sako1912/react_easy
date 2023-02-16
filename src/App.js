@@ -27,6 +27,7 @@ class App extends Component {
 
   //목록 생성
   handleCreate = (data) => {
+    console.log("test");
     const { info } = this.state;
 
     this.setState({
